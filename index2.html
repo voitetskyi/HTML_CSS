@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+    <style>
+        header {
+            position: fixed;
+            width: 100%;
+            left: 0px;
+            top: 0px;
+            background: tomato;
+        }
+        footer {
+            position: fixed;
+            width: 100%;
+            left: 0px;
+            bottom: 0px;
+            background: lightgreen;
+        }
+        section {
+            overflow: auto;
+        }
+        .container {
+            margin-top: 120px;
+        }
+        @media (min-width:600px) {
+            nav {
+                float: left;
+                width: 100px;
+            }
+            section {
+                margin-left: 120px;
+                text-align: justify;
+
+            }
+        }
+        @media (max-width:599px) {
+            nav li {
+                display: inline;
+            }
+            section {
+                text-align: justify;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header><h1 align="center">Рыба моей мечты</h1></header>
+    
+    <div class="container">
+        <nav>
+            <ul>
+                <li><a href="https://ru.wikipedia.org/wiki/%D0%A4%D0%BE%D1%80%D0%B5%D0%BB%D1%8C">Форель</a></li>
+                <li><a href="https://ru.wikipedia.org/wiki/%D0%93%D0%BE%D1%80%D0%B1%D1%83%D1%88%D0%B0">Горбуша</a></li>
+                <li><a href="https://ru.wikipedia.org/wiki/%D0%9A%D0%B5%D1%82%D0%B0">Кета</a></li>
+            </ul>
+        </nav>
+        <section>
+            <h3>Форель</h3>
+            <p><img src="/images/Oncorhynchus1.jpg" height="100" align="right" hspace="5">
+                Форе́ль — общее название нескольких пресноводных видов и форм рыб, относящихся к семейству
+                лососевых (Salmonidae).<br>
+                Форели присутствуют в трёх из семи родов семейства: лососи (Salmo), который включает атлантические виды;
+                тихоокеанские лососи (Oncorhynchus) и гольцы (Salvelinus). Salmo ohridanus, также известный под названием Belvica,
+                является видом пресноводных лососевых рыб, эндемичных для озера Охрид в Албании и Македонии.
+            </p>
+        </section>
+        <section>
+            <hr color="blue">
+            <h3>Горбуша</h3>
+            <p><img src="/images/Pink_salmon.jpg" height="100" align="right" hspace="5">
+                Горбу́ша (лат. Oncorhynchus gorbuscha) — вид анадромных рыб из семейства лососёвых (Salmonidae).
+                Наименьший по размерам и наиболее распространённый и быстрорастущий представитель рода тихоокеанских
+                лососей (Oncorhynchus).
+            </p>
+        </section>
+        <section>
+            <hr color="blue">
+            <h3>Кета</h3>
+            <p><img src="/images/Oncorhynchus_keta.jpeg" height="100" align="right" hspace="5">
+                Ке́та, или кета́ (от нанайск. keta — рыба; лат. Oncorhynchus keta) — один из наиболее массовых среди
+                лососёвых (второе место после горбуши) и самый распространённый из видов анадромных рыб семейства лососёвых.
+                Ценный объект промысла.
+            </p>
+        </section>
+        <section>
+            <hr color="blue">
+        </section>
+    </div>
+    <footer>Footer</footer>
+</body>
+</html>
