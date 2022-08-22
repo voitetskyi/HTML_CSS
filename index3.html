@@ -13,9 +13,14 @@
         body {
             font-family: Libre Franklin;
         }
+        .progress {
+            background-color: #C66C49;
+        }
+        .bar {
+            background-color: #F5D6AB;
+        }
         /* .container {
-            justify-content: center;
-            align-items: center;
+
         } */
         @media (min-width:600px) {
             body {
@@ -172,13 +177,8 @@
                 text-align: left;
             }
             .progress_bar {
-                background-color: #F5D6AB
-            }
-            .progress_bar::before {
-                content: "| j j j b  j   n |";
-                width: 70%;
-                background-color: #C66C49;
-
+                width: 446px;
+                border-spacing: 0px;
             }
             .box_portfolio {
                 width: 1440px;
@@ -448,24 +448,9 @@
                 text-align: left;
             }
             .progress_bar {
-                background-color: #F5D6AB;
+                width: 220px;
+                border-spacing: 0px;
             }
-            .progress_bar::before {
-                content: 'lkjlkjlkjjklklkljllkjl';
-                color: #C66C49;
-                background-color: #C66C49;
-            }
-
-            /* .progress_bar:nth-child(1) {
-
-            }
-            .progress_bar:nth-child(2) {
-
-            }
-            .progress_bar:nth-child(3) {
-                
-            } */
-
             .box_portfolio {
                 width: 375px;
                 height: 404px;
@@ -612,6 +597,26 @@
                 consectetur et sed purus sed. Consectetur adipiscing elit. Egestas
                 porttitor nulla nulla egestas odio pharetra egestas aliquet mollis.
                 diam penatibus aliquet tellus, in rutrum augue. Pellentesque.
+                Arcu, sed nisi, mi, arcu libero phasellus tincidunt. Rhoncus, diam
+                penatibus aliquet tellus, in rutrum augue. Pellentesque senectus risus 
+                consectetur et sed purus sed. Consectetur adipiscing elit. Egestas
+                porttitor nulla nulla egestas odio pharetra egestas aliquet mollis.
+                diam penatibus aliquet tellus, in rutrum augue. Pellentesque.
+                Arcu, sed nisi, mi, arcu libero phasellus tincidunt. Rhoncus, diam
+                penatibus aliquet tellus, in rutrum augue. Pellentesque senectus risus 
+                consectetur et sed purus sed. Consectetur adipiscing elit. Egestas
+                porttitor nulla nulla egestas odio pharetra egestas aliquet mollis.
+                diam penatibus aliquet tellus, in rutrum augue. Pellentesque.
+                Arcu, sed nisi, mi, arcu libero phasellus tincidunt. Rhoncus, diam
+                penatibus aliquet tellus, in rutrum augue. Pellentesque senectus risus 
+                consectetur et sed purus sed. Consectetur adipiscing elit. Egestas
+                porttitor nulla nulla egestas odio pharetra egestas aliquet mollis.
+                diam penatibus aliquet tellus, in rutrum augue. Pellentesque.
+                Arcu, sed nisi, mi, arcu libero phasellus tincidunt. Rhoncus, diam
+                penatibus aliquet tellus, in rutrum augue. Pellentesque senectus risus 
+                consectetur et sed purus sed. Consectetur adipiscing elit. Egestas
+                porttitor nulla nulla egestas odio pharetra egestas aliquet mollis.
+                diam penatibus aliquet tellus, in rutrum augue. Pellentesque.
             </p>
         </div>
         <div class="box_skills">
@@ -621,19 +626,23 @@
                 <tr>
                     <th>Profile</th>
                     <td>UI / UX Engineer, Front-end Developer</td>
+                    <td></td>
                 </tr>
                 <tr><td></td></tr>
                 <tr>
                     <th>Front-end Dev</th>
-                    <td class="progress_bar"></td>
-                </tr>
+                    <td><table class="progress_bar">
+                        <tr><td  class="progress" width="70%"></td><td class="bar"></td></tr>
+                    </table></td>
                 <tr>
                     <th>Tools</th>
                     <td>HTML, CSS, JS, Bootstrap, React</td>
                 </tr>
                 <tr>
                     <th>UI Design</th>
-                    <td class="progress_bar"></td>
+                    <td><table class="progress_bar">
+                        <tr><td  class="progress" width="80%"></td><td class="bar"></td></tr>
+                    </table></td>
                 </tr>
                 <tr>
                     <th>Tools</th>
@@ -641,7 +650,9 @@
                 </tr>
                 <tr>
                     <th>UX Research</th>
-                    <td class="progress_bar"></td>
+                    <td><table class="progress_bar">
+                        <tr><td  class="progress" width="90%"></td><td class="bar"></td></tr>
+                    </table></td>
                 </tr>
                 <tr>
                     <th>Tools</th>
@@ -653,9 +664,26 @@
         <div class="box_portfolio">
             <p id="portfolio">Portfolio</p>
             <p id="ux">UX Research</p>
-            <p id="text_portfolio">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            <p id="text_portfolio">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Ac dictum nibh nam odio cursus id. Diam massa semper a tincidunt cursus
-                ultricies lectus eget urna.</p>
+                ultricies lectus eget urna.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Ac dictum nibh nam odio cursus id. Diam massa semper a tincidunt cursus
+                ultricies lectus eget urna.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Ac dictum nibh nam odio cursus id. Diam massa semper a tincidunt cursus
+                ultricies lectus eget urna.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Ac dictum nibh nam odio cursus id. Diam massa semper a tincidunt cursus
+                ultricies lectus eget urna.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Ac dictum nibh nam odio cursus id. Diam massa semper a tincidunt cursus
+                ultricies lectus eget urna.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Ac dictum nibh nam odio cursus id. Diam massa semper a tincidunt cursus
+                ultricies lectus eget urna.
+            </p>
             <div id="photo_block">
                 <img class="left_photos" src="images/photo1.jpg">
                 <img class="left_photos" src="images/photo2.jpg">
